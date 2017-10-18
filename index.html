@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Address Book</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Address Book</h1>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+            <div class="checkout">
+              <h2 class="card-title">Add Contact</h2>
+              <hr>
+              <form id="form">
+                <div class="form-group">
+                  <label for="firstname">First Name</label>
+                  <input type="text" class="form-control" id="firstname" placeholder="Enter First Name">
+                </div>
+                <div class="form-group">
+                  <label for="lastname">Last Name</label>
+                  <input type="text" class="form-control" id="lastname" placeholder="Enter Last Name">
+                </div>
+                <div class="form-group">
+                  <label for="streetaddress">Street Address</label>
+                  <input type="text" class="form-control" id="streetaddress" placeholder="Street Address">
+                </div>
+                <div class="form-group">
+                  <label for="aptnumber">Apt./Ste./P.O. Box</label>
+                  <input type="text" class="form-control" id="aptnumber" placeholder="Apt./Ste./P.O. Box">
+                </div>
+                <div class="form-group">
+                  <label for="city">City</label>
+                  <input type="text" class="form-control" id="city" placeholder="Enter City">
+                </div>
+                <div class="form-group">
+                  <label for="state">State</label>
+                  <input type="text" class="form-control" id="state" placeholder="Enter State">
+                </div>
+                <div class="form-group">
+                  <label for="zip">Zip Code</label>
+                  <input type="text" class="form-control" id="zip" placeholder="Enter Zip Code">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9" id="addresses">
+          <h2>Address Book</h2>
+          <!-- <div class="card" style="width: 20rem;">
+            <h3 class="card-title"><span class="firstname"></span> <span class="lastname"></span><h3>
+            <div class="card-body">
+              <p class="mb-0 card-text"><span class="streetaddress"></span></p>
+              <p class="mb-0 card-text"><span class="aptnumber"></span></p>
+              <p class="mb-0 card-text"><span class="city"></span></p>
+              <p class="mb-0 card-text"><span class="state"></span></p>
+              <p class="mb-0 card-text"><span class="zip"></span></p>
+            </div>
+          </div> -->
+          <div class="card-header">Cat says:</div>
+            <div class="card-body">
+              <ul class="unstyled" id="address">
+
+              </ul>
+         </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
