@@ -17,7 +17,7 @@ $(function() {
     $(".city").after(inputCity);
     $(".state").after(inputState);
     $(".zip").after(inputZip);
-    $("ul#address").append("<li></li>" + address);
+    $("ul#address").append('<li>' + address + '</li>');
 
   });
 });
